@@ -20,8 +20,7 @@ npm run dev
 Edit the transition animations in `components/TransitionLayout.jsx`:
 ```javascript
 /**
- * Leave animation - fades out page content
- * This targets elements with data-transition-content attribute
+ * Leave animation - this targets elements with data-transition-content attribute
  */
 const leave = async () => {
   const contentElements = document.querySelectorAll(
@@ -42,8 +41,7 @@ const leave = async () => {
 };
 
 /**
- * Enter animation - fades in page content
- * This targets elements with data-transition-content attribute
+ * Enter animation - this targets elements with data-transition-content attribute
  */
 const enter = async () => {
   const contentElements = document.querySelectorAll(
@@ -79,10 +77,7 @@ Replace Next.js `Link` components with `TransitionLink` for navigation with tran
 ```javascript
 import TransitionLink from "@/components/TransitionLink";
 
-<TransitionLink
-  href="/"
-  className="px-3 py-2 rounded-md text-sm font-medium transition-colors"
->
+<TransitionLink href="/">
   Home
 </TransitionLink>
 ```
