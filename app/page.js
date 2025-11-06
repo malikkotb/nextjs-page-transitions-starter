@@ -6,7 +6,7 @@ export default function Home() {
           Welcome to Home
         </h1>
         <p className="text-lg md:text-xl text-zinc-700">
-          This is the home page with centered text.
+          This is the home page.
         </p>
       </div>
     </div>

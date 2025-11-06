@@ -6,7 +6,7 @@ export default function About() {
           About Us
         </h1>
         <p className="text-lg md:text-xl text-zinc-700">
-          This is the about page with centered text.
+          This is the about page.
         </p>
       </div>
     </div>
